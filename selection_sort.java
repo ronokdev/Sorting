@@ -13,7 +13,7 @@ public class selectionSort
 
     }
 
-    //Doing selection sort
+    //Doing selection sort 🔴🟢🟡
     public static void selectionSort(int[] arry)
     {
         for (int last_array_index = arry.length - 1; last_array_index > 0; last_array_index--)
@@ -32,7 +32,7 @@ public class selectionSort
 
     }
 
-    //swaping the value
+    //swaping the value 🔴🟢🟡
     public static void swap(int[] peram, int i, int j)
     {
         if (peram[i] == peram[j]) return;
@@ -43,7 +43,7 @@ public class selectionSort
         }
     }
 
-    // printing the Array
+    // printing the Array 🔴🟢🟡
     public static void arrayToPrint(int[] peram)
     {
         System.out.println(Arrays.toString(peram));
