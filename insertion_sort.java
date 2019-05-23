@@ -26,7 +26,7 @@ public class insertion_sort
             int sorted_index;
             boolean counter = false;
             // will check the SORTED portion 🔴🟢🟡
-            for (sorted_index = firstSortedIndex; sorted_index >= 0 && currentElement < arry[sorted_index]; sorted_index--) {
+            for( sorted_index = firstSortedIndex;sorted_index>0 && arry[unsorted_index] < currentElement;sorted_index--)
                 arry[sorted_index + 1] = arry[sorted_index];
                 counter = true;
             }
